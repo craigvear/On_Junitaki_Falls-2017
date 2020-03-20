@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 283.0, 151.0, 234.0 ],
+					"patching_rect" : [ 22.0, 283.0, 154.0, 234.0 ],
 					"text" : "This blue table  shows the individual matrix of harmonic progression determined by the mother_funker_algorithm. This ensures each particular performance of the piece navigates an individual pathway. \nThe square is 28x28 with each point representing an individual folder for audio and visual materials.\nIn a poetic sense, the software invents its own harmonic structure for each performance."
 				}
 
@@ -68,7 +68,7 @@
 					"pointcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"range" : 28,
 					"size" : 28,
-					"table_data" : [ 0, 26, 9, 3, 1, 7, 15, 13, 23, 19, 6, 21, 24, 17, 20, 12, 14, 11, 10, 4, 18, 2, 25, 0, 5, 27, 8, 16, 22 ],
+					"table_data" : [ 0, 2, 9, 0, 10, 8, 6, 1, 21, 7, 18, 3, 12, 24, 26, 23, 11, 14, 5, 15, 19, 4, 22, 16, 20, 27, 17, 25, 13 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -80,7 +80,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 20.0, 152.0, 74.0 ],
+					"patching_rect" : [ 22.0, 20.0, 154.0, 74.0 ],
 					"text" : "This patch determines the individual pathway through the score for each performance. An idividual  encoded ID of the piece"
 				}
 
@@ -500,7 +500,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1942.0, 82.0, 675.0, 475.0 ],
+						"rect" : [ 1783.0, 70.0, 809.0, 547.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -528,6 +528,18 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"linecount" : 15,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 445.0, 193.0, 286.0, 221.0 ],
+									"text" : "<--------\n\nThis is the mecahnical 'heart' of the AI embedded into this composition. It is a symbolic representation of the thought processes of a musician (or strictly speaking me, the composer). Isolated as a algorithm like this it is difficult to understand how I can call this AI. What is missing is the 'soul' of the intelligent behaviour which is embedded in the captured media and the behavioural parameters of the audio manipulation. The true proof of intelligent behaviour is only apparent in the embodied relationships between the human and the performing AI inside musicking - that is the performance of the work. \n"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-9",
 									"linecount" : 2,
@@ -10483,8 +10495,8 @@
 , 																			{
 																				"name" : "newobjYellow-1",
 																				"default" : 																				{
-																					"fontsize" : [ 12.059008 ],
-																					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+																					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+																					"fontsize" : [ 12.059008 ]
 																				}
 ,
 																				"parentstyle" : "",
@@ -15612,8 +15624,8 @@
 , 															{
 																"name" : "newobjYellow-1",
 																"default" : 																{
-																	"fontsize" : [ 12.059008 ],
-																	"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+																	"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+																	"fontsize" : [ 12.059008 ]
 																}
 ,
 																"parentstyle" : "",
@@ -16857,7 +16869,7 @@
 									"pointcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"range" : 28,
 									"size" : 28,
-									"table_data" : [ 0, 26, 9, 3, 1, 7, 15, 13, 23, 19, 6, 21, 24, 17, 20, 12, 14, 11, 10, 4, 18, 2, 25, 0, 5, 27, 8, 16, 22 ],
+									"table_data" : [ 0, 2, 9, 0, 10, 8, 6, 1, 21, 7, 18, 3, 12, 24, 26, 23, 11, 14, 5, 15, 19, 4, 22, 16, 20, 27, 17, 25, 13 ],
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
